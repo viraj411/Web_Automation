@@ -1,0 +1,10 @@
+<suite name="ParallelTests" parallel="methods" thread-count="1">
+    <test name="ParallelExecution">
+        <classes>
+            <class name="SearchFeature"/>
+            <class name="SearchFun"/>
+
+
+        </classes>
+    </test>
+</suite>
