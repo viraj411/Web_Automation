@@ -20,7 +20,7 @@ public class Login {
             valid_login(driver);
             invalid_username(driver);
             invalid_password(driver);
-            driver.close();
+
 
         }
 
