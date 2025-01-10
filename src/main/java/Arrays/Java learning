@@ -1,0 +1,169 @@
+Let's go step-by-step, starting with the **basic core concepts** of Java. Each concept will be followed by examples and exercises for practice. Let’s dive in:
+
+### 1. **Java Basics**
+#### What is Java?
+Java is an **object-oriented, platform-independent programming language**. It allows you to write a program once and run it anywhere.
+
+#### Key Features
+- Simple, Object-Oriented
+- Platform Independent (Write Once, Run Anywhere)
+- Secure and Robust
+- Multi-threaded and High Performance
+
+---
+
+### 2. **Hello World Program**
+Let’s write your first Java program:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); // Prints Hello, World! to the console
+    }
+}
+```
+
+#### Explanation:
+- `public class HelloWorld`: Defines a class named `HelloWorld`.
+- `public static void main(String[] args)`: The entry point of the program.
+- `System.out.println("Hello, World!");`: Outputs text to the console.
+
+---
+
+### 3. **Data Types in Java**
+Java is a statically typed language, meaning each variable must be declared with a type.
+
+| Data Type  | Size     | Example            |
+|------------|----------|-------------------|
+| `int`      | 4 bytes  | `int age = 25;`   |
+| `double`   | 8 bytes  | `double pi = 3.14;` |
+| `char`     | 2 bytes  | `char grade = 'A';` |
+| `boolean`  | 1 bit    | `boolean isJavaFun = true;` |
+| `String`   | Varies   | `String name = "John";` |
+
+---
+
+#### Practice 1:
+Write a program that declares variables of different data types and prints them.
+
+---
+
+### 4. **Control Structures**
+#### **If-Else Statement**
+```java
+int number = 10;
+if (number > 0) {
+    System.out.println("Positive number");
+} else {
+    System.out.println("Negative number");
+}
+```
+
+#### **For Loop**
+```java
+for (int i = 1; i <= 5; i++) {
+    System.out.println(i);  // Prints numbers 1 to 5
+}
+```
+
+#### **Practice 2**:
+1. Write a program to check if a number is **even or odd**.
+2. Write a program that prints the sum of the first 10 natural numbers using a loop.
+
+---
+
+### 5. **Object-Oriented Programming (OOP)**
+Java is an **object-oriented** language. The main principles are:
+
+- **Class**: A blueprint for objects.
+- **Object**: An instance of a class.
+- **Encapsulation**: Hiding the internal details of a class.
+- **Inheritance**: A class can inherit properties of another class.
+- **Polymorphism**: Objects can take many forms (method overriding and overloading).
+
+---
+
+#### Example of a Class and Object:
+```java
+class Car {
+    String color;
+    String model;
+
+    void displayDetails() {
+        System.out.println("Color: " + color + ", Model: " + model);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car();  // Create an object
+        myCar.color = "Red";
+        myCar.model = "Tesla Model S";
+        myCar.displayDetails();  // Output: Color: Red, Model: Tesla Model S
+    }
+}
+```
+
+#### Practice 3:
+1. Create a class `Student` with attributes `name` and `age`. Write a method to display the student’s details.
+2. Create a class `Book` with attributes `title` and `author`. Add a method to display the book details.
+
+---
+
+### 6. **Methods (Functions)**
+A method in Java is a block of code that performs a specific task.
+
+**Syntax:**
+```java
+returnType methodName(parameters) {
+    // method body
+}
+```
+
+**Example of a Method:**
+```java
+public int addNumbers(int a, int b) {
+    return a + b;
+}
+```
+
+---
+
+#### Practice 4:
+Write a program with a method that calculates the **square of a number**.
+
+---
+
+### 7. **Arrays**
+Arrays store multiple values of the same type.
+
+```java
+int[] numbers = {10, 20, 30, 40, 50};
+for (int i = 0; i < numbers.length; i++) {
+    System.out.println(numbers[i]);
+}
+```
+
+---
+
+#### Practice 5:
+1. Write a program to find the **largest element** in an array.
+2. Write a program to reverse an array.
+
+---
+
+### 8. **Strings**
+Strings are objects in Java that represent sequences of characters.
+
+**Example of String Methods:**
+```java
+String greeting = "Hello, World!";
+System.out.println(greeting.length());  // Output: 13
+System.out.println(greeting.toUpperCase());  // Output: HELLO, WORLD!
+```
+
+---
+
+### Next Steps
+1. Practice these concepts and exercises.
+2. Let me know which topic you'd like to explore in more depth, or ask questions!
