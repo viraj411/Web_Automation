@@ -1,0 +1,95 @@
+
+---
+
+### **Problem Statement**
+You need to create a system where a library can manage its books and users. The library allows users to borrow and return books. Each book has a title, author, and availability status. Users have names and can borrow up to a limited number of books.
+
+---
+
+### **Steps and Approach**
+
+#### **Step 1: Identify the Key Objects**
+Think about the real-world objects involved.
+**In this problem, the main objects are:**
+- `Book`
+- `User`
+- `Library`
+
+#### **Step 2: Define Classes and Attributes**
+Map real-world objects to classes with appropriate attributes.
+- **Class `Book`**
+  Attributes:
+  - `title` (String)
+  - `author` (String)
+  - `isAvailable` (boolean)
+
+- **Class `User`**
+  Attributes:
+  - `name` (String)
+  - `borrowedBooks` (List<Book>)
+  - `maxBooksAllowed` (int)
+
+- **Class `Library`**
+  Attributes:
+  - `books` (List<Book>)
+  - `users` (List<User>)
+
+#### **Step 3: Identify Methods (Behaviors)**
+List the actions each class needs to perform.
+- **Book**
+  - `markAsBorrowed()`: Change availability status to false.
+  - `markAsReturned()`: Change availability status to true.
+
+- **User**
+  - `borrowBook(Book book)`: Borrow a book if within the limit.
+  - `returnBook(Book book)`: Return a borrowed book.
+
+- **Library**
+  - `addBook(Book book)`: Add a new book to the library’s collection.
+  - `registerUser(User user)`: Register a new user.
+  - `displayAvailableBooks()`: List all available books.
+
+#### **Step 4: Design Class Relationships**
+Use **composition** where objects are made up of other objects:
+- A `Library` **has a collection** of `Book` and `User` objects.
+- A `User` **can have a list** of borrowed `Book` objects.
+
+#### **Step 5: Implement Constructors**
+Create constructors to initialize objects with meaningful data:
+- `Book(String title, String author)` to initialize title and author.
+- `User(String name, int maxBooksAllowed)` to set up a user.
+
+#### **Step 6: Implement Methods**
+Define the methods you outlined in step 3. For example:
+- In `Library`, the `addBook()` method adds a new book to the collection.
+- In `User`, the `borrowBook(Book book)` checks if the user can borrow more books and updates the list of borrowed books.
+
+#### **Step 7: Handle Edge Cases**
+Consider scenarios like:
+- Trying to borrow a book that is not available.
+- Exceeding the borrowing limit for a user.
+- Returning a book not borrowed by the user.
+
+#### **Step 8: Create a Main Class for Execution**
+Write a `main` method to test the system:
+- Add books to the library.
+- Register users.
+- Allow users to borrow and return books.
+- Display the list of available books.
+
+---
+
+### **OOP Principles You’ll Use**
+1. **Encapsulation**: Keep class attributes private and access them using getter and setter methods if needed.
+2. **Abstraction**: Hide internal details with methods like `borrowBook()` or `addBook()`.
+3. **Inheritance**: If the problem allows (e.g., different types of users), use a superclass `User` and subclasses for different roles.
+4. **Polymorphism**: Use methods that behave differently based on the object type (optional in simpler cases).
+
+---
+
+### **Next Steps**
+1. Try implementing each class step by step.
+2. Test each method individually to ensure it works.
+3. Refine your solution by handling special cases.
+
+Following this structured approach helps you design clean, maintainable code and prepares you for **interview-level questions on OOP in Java**.
