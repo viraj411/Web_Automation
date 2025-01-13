@@ -58,8 +58,8 @@ public class Strings {
       //
       //Output: "olleh"
 
-      String input = "hello";
-      String rev = "";
+    //  String input = "hello";
+    //  String rev = "";
 
 //      for (int i= 0; i<=input.length()-1;i--){
 //          System.out.println(i);
@@ -70,7 +70,7 @@ public class Strings {
 //      System.out.println(rev);
 
    //   Write a Java program to count the number of vowels (a, e, i, o, u) in a given string.
-        String w = "Java Programming";
+        //String w = "Java Programming";
 //        int vowelcount = 0;
 //
 //      String lowercase= w.toLowerCase();
@@ -84,11 +84,23 @@ public class Strings {
 //
 //
 //
+////  }
+////      System.out.println(vowelcount);
+//      String s1 = "Java Programming";
+//      String s2= s1.concat("viraj");
+//      System.out.println(  s2= s1.concat(" viraj"));
+//
 //  }
-//      System.out.println(vowelcount);
-      String s1 = "Java Programming";
-      String s2= s1.concat("viraj");
-      System.out.println(  s2= s1.concat(" viraj"));
 
+          int num = 5; // Example number
+          long result = 1;
+
+          // Loop to calculate factorial
+          for (int i = 1; i <= num; i++) {
+              result *= i;
+          }
+
+          System.out.println("Factorial of " + num + " is " + result);
+      }
   }
-}
+
