@@ -1,0 +1,27 @@
+Here are some commonly asked **Java interview questions** on **arrays** ranging from **easy** to **medium** level:
+
+### Easy Level Questions
+1. **Find the largest and smallest elements in an array.**
+2. **Reverse an array in place.**
+3. **Check if an array contains a specific element.**
+4. **Find the second largest element in an array.**
+5. **Find the sum of all elements in an array.**
+6. *Find the number of even and odd numbers in an array.**
+7. **Check if a given array is sorted in ascending or descending order.**
+8. **Find the missing number in an array of size `n-1` containing numbers from `1` to `n`.**
+9. **Move all zeros to the end of the array without changing the order of other elements.**
+10. **Remove duplicate elements from an unsorted array.**
+
+### Medium Level Questions
+1. **Find the first repeating and non-repeating elements in an array.**
+2. **Find the union and intersection of two arrays.**
+3. **Rotate an array to the left or right by `k` positions.**
+4. **Find all pairs of elements whose sum is equal to a given number.**
+5. **Find the subarray with the maximum sum (Kadane's Algorithm).**
+6. **Sort an array of 0s, 1s, and 2s without using extra space (Dutch National Flag problem).**
+7. **Rearrange an array such that positive and negative numbers are placed alternatively.**
+8. **Find the longest consecutive sequence in an unsorted array.**
+9. **Find the majority element in an array (element appearing more than `n/2` times).**
+10. **Check if two arrays are permutations of each other.**
+
+Would you like detailed explanations or code for any of these?

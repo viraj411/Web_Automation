@@ -5,10 +5,9 @@ public class Second_largest_Element {
 
 
         public static void main(String[] args) {
-            int[] arr = {12, 12, 12, 12, 12};
+            int[] arr = {1,3};
 
-            // Sort the array
-          //  Arrays.sort(arr);
+
 
             // Find the second largest element by checking from the end
             int n = arr.length;
