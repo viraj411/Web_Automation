@@ -2,19 +2,23 @@ package Arrays;
 
 public class FirstRepeatedElement {
 
+
     public static void main(String[] args) {
 
+        String st = "SAS";
+        String rev="";
 
-        int[] arr = {1, 3, 3, 1, 4, 6};
-        int first_repeated_element = 0;
+        for (int i=st.length()-1;i>=0;i--){
 
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i]==arr[0]){
-
-            }
-
-
+            rev+=st.charAt(i);
         }
+        System.out.println(rev);
 
+        if(st.equals(rev)){
+            System.out.println("palindrome");
+        }
+        else {
+            System.out.println("Not plaindrome" );
+        }
     }
 }

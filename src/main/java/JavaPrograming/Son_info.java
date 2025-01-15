@@ -1,6 +1,6 @@
 package JavaPrograming;
 
-public class Son_info extends myinfo {
+public class Son_info  {
 
 
     public void myinfo() {

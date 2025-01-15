@@ -5,7 +5,7 @@ public class Duplicate_Element {
     public static void main(String[] args) {
 
 
-        int[] arr = { 3, 4, 5, 6, 7};
+        int[] arr = { 3, 4, 5,6, 6, 7};
 
         for (int i = 0; i < arr.length; i++) {
 
@@ -16,6 +16,6 @@ public class Duplicate_Element {
             }
 
         }
-                 System.out.println("no duplicate");
+              //   System.out.println("no duplicate");
     }
 }
